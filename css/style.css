@@ -17,3 +17,38 @@
     display: flex;
     margin: 20px 0;
 }
+
+.main-lobby{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 0 0 14px;
+}
+
+.room{
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: 15px 0;
+}
+
+.room .col a button{
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    padding: 11px;
+}
+
+.button-search-create{
+    padding: 5px 0;
+}
+
+.button-search-create .col a button{
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    background-color: dodgerblue;
+    padding: 15px 25px;
+    border-radius: 7px;
+}
