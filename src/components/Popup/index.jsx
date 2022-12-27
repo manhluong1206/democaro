@@ -1,8 +1,10 @@
 import React from 'react'
 import './index.scss'
-import {useHistory} from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+
+
 export default function Popup({ detailId, toggle}) {    
-    var history = useHistory();
+    let navigate = useNavigate();
     return (
         <section id='popup' className='popup'>
             <div className='container'>
@@ -17,8 +19,9 @@ export default function Popup({ detailId, toggle}) {
                                 <div className='h1 text-light fs-4'>{detailId.title}</div>
                                 <p>{detailId.content}</p>
                                 <div className="modal-content-block__btn">
-                                    <button 
-                                        onClick={() => {history.push('/Pages/index')}}>
+                                    <button onClick = {() => {
+                                        navigate(detailId.slug);
+                                    }} >
                                         Play now
                                     </button>
                                 </div>
