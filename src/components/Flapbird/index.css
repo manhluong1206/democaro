@@ -1,5 +1,11 @@
-.container-fluid{
-    background-color: #212529;
+.container-fluid.flapbird{
+    background-image: url(/src/assets/images/flapbrid.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.flap-bird{
+    padding: 252px 0;
 }
 .button{
     padding: 20px;

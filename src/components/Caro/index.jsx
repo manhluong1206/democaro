@@ -14,7 +14,7 @@ function Caro() {
         <div className="main">
             <div className="container">
                 <div className="button justify-content-center align-items-center">
-                    <a href="/lobby">
+                    <a href="/lobbycaro">
                         <button className="justify-content-center align-items-center"
                         >Home</button>
                     </a>

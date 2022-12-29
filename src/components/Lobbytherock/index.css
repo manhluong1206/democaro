@@ -1,0 +1,54 @@
+.lobbytherock.bg{
+	background-image: url(/src/assets/images/wait-room-therock.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    margin: 20px;
+}	
+.room-therock{
+    background-image: url(/src/assets/images/btn-wait-room-therock.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    padding: 11px 65px;
+}
+.lobbytherock{
+	padding: 125px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.therock .qplay button{
+    background-image: url(/src/assets/images/btn-qplay-therock.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    padding: 10px 13px;
+    background-color: unset;
+}
+
+.therock .search button{
+    background-image: url(/src/assets/images/btn-therock.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    background-color: unset;
+    padding: 10px 13px;
+}
+
+.button .therock{
+    background-image: url(/src/assets/images/button-bub.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+	width: 100%;
+    height: 70px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    margin: 20px 0;
+}

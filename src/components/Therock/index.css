@@ -1,5 +1,11 @@
-.container-fluid{
-    background-color: #212529;
+.container-fluid.therock{
+    background-image: url(/src/assets/images/therock.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.therock{
+    padding: 200px 0;
 }
 .button{
     padding: 20px;

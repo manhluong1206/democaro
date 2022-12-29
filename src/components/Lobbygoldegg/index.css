@@ -1,0 +1,57 @@
+.lobbygoldegg.bg{
+	background-image: url(/src/assets/images/wait-room-goldegg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}	
+.room-goldegg{
+    background-image: url(/src/assets/images/btn-wait-room-goldegg.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    padding: 20px 0px;
+}
+.lobbygoldegg{
+	padding: 125px 0;
+}
+
+p.gd-color{
+    color: #db6941 !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.goldegg .qplay button{
+    background-image: url(/src/assets/images/btn-search-goldegg.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    padding: 10px 13px;
+    background-color: unset;
+}
+
+.goldegg .search button{
+    background-image: url(/src/assets/images/btn-goldegg.png);
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+    background-color: unset;
+    padding: 10px 13px;
+}
+
+.button .goldegg{
+    background-image: url(/src/assets/images/button-bub.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+	width: 100%;
+    height: 70px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    margin: 20px 0;
+}
