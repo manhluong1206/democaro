@@ -8,12 +8,12 @@ export default function Therock() {
         <div className="therock">
             <div className="col">
                 <a href="/lobbytherock">
-                <button className="btn-flap d-flex justify-content-center align-items-center">
+                <button className="btn-therock d-flex justify-content-center align-items-center">
                     Home
                 </button>
                 </a>
                 <a href="">
-                <button className="btn-flap d-flex justify-content-center align-items-center">
+                <button className="btn-therock d-flex justify-content-center align-items-center">
                     Invite
                 </button>
                 </a>

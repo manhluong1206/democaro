@@ -8,12 +8,12 @@ export default function Goldegg() {
         <div className="goldegg">
             <div className="col">
                 <a href="/lobbygoldegg">
-                <button className="btn-flap d-flex justify-content-center align-items-center">
+                <button className="btn-goldegg d-flex justify-content-center align-items-center">
                     Home
                 </button>
                 </a>
                 <a href="">
-                <button className="btn-flap d-flex justify-content-center align-items-center">
+                <button className="btn-goldegg d-flex justify-content-center align-items-center">
                     Invite
                 </button>
                 </a>
