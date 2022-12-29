@@ -3,7 +3,11 @@
     border-radius: 20px;
     padding: 0 0 14px;
 }
- 
+
+.lobby{
+    padding: 250px 0;
+}
+
 .room{
     background-color: black;
     border-radius: 10px;

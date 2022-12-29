@@ -1,6 +1,14 @@
-.container-fluid{
+.container-fluid.caro{
     background-color: #212529;
+    background-image: url(/src/assets/images/caro.png) !important;
+    background-size: contain;
+    background-position: center;
 }
+
+.main.caro{
+    padding: 250px 0;
+}
+
 .button{
     padding: 20px;
 }

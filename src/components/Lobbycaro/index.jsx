@@ -3,7 +3,7 @@ import './index.css'
 
 function Lobby() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid caro">
         <div className="lobby justify-content-center align-items-center">
             <div className="container">
                 <div className="main-lobby">
